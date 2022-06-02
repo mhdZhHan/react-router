@@ -50,7 +50,12 @@ header nav ul li a {
   color: #fff;
   font-size: 19px;
   font-weight: 600;
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+header nav ul li a.active {
+  border-bottom: 2px solid crimson;
+  color: teal;
 }
 
 div.fournotfour {
