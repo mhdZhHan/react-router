@@ -1,7 +1,15 @@
-import React from 'react'
+import Helmet from 'react-helmet'
+import React, { Fragment } from 'react'
 
 function Profile() {
-    return <h1>Profile Page</h1>
+    return (
+        <Fragment>
+            <Helmet>
+                <title>Profile</title>
+            </Helmet>
+            <h1>Profile Page</h1>
+        </Fragment>
+    )
 }
 
 export default Profile
